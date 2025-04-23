@@ -1,0 +1,11 @@
+[package]
+name = "healthcheck"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.40"
+json5 = "0.4.1"
+notify-rust = "4.11.7"
+reqwest = { version = "0.12.15", features = ["blocking"] }
+serde = { version = "1.0.219", features = ["derive"] }
